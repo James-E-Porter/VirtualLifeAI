@@ -46,3 +46,35 @@ VirtualLifeAI/
 ├── assets/                # Avatar models, textures, and other assets
 ├── tests/                 # Test scripts for AI and sensor input
 └── README.md              # Project overview
+
+## Setup and Installation
+Clone the repository:
+
+## Copy code
+git clone https://github.com/<your-username>/VirtualLifeAI.git
+cd VirtualLifeAI
+
+## Install dependencies:
+
+   # Jetson Orin Nano:
+
+      Install JetPack SDK.
+      Set up TensorRT, PyTorch, and TensorFlow.
+
+   # Unreal Engine:
+
+      Install Unreal Engine 5.3 and configure plugins for AI and voxel worlds.
+
+## Connect hardware:
+
+Attach cameras and sensors via the Jetson Nano expansion headers.
+Set up the Pepper’s Ghost display for the dollhouse.
+
+## Contributing
+Contributions are welcome! Please open an issue or submit a pull request for bug fixes, enhancements, or documentation updates.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Notes
+This project is a work in progress and may evolve over time. Feedback and ideas are encouraged!
